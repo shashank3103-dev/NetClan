@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RefineActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:background="@color/lightBlue"
+       android:layout_height="?attr/actionBarSize">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginStart="10dp"
+           android:src="@drawable/baseline_arrow_back_ios_24"
+           android:layout_height="wrap_content"/>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:text="Refine"
+          android:textColor="@color/white"
+          android:layout_marginStart="20dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textSize="18dp"
+          android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:textAlignment="textStart"
+            android:layout_marginTop="10sp"
+
+            android:text="Select Your Availability"
+            android:layout_height="wrap_content"/>
+       <Spinner
+           android:id="@+id/spinner"
+           android:layout_width="match_parent"
+           android:background="@drawable/border"
+           android:layout_marginTop="15dp"
+           android:layout_height="40dp">
+
+       </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:textAlignment="textStart"
+            android:text="Add Your Status"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:textSize="19dp"
+            android:background="@drawable/border"
+            android:textAlignment="textStart"
+            android:text=" Hi community! am open to new connections "
+            android:layout_height="90dp">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:textAlignment="textStart"
+            android:layout_marginTop="15dp"
+            android:text="Select Hyper local Distance"
+            android:layout_height="wrap_content"/>
+
+       <SeekBar
+
+            android:layout_width="match_parent"
+           android:layout_marginTop="50dp"
+           android:backgroundTint="@color/darkBlue"
+           android:progressTint="@color/darkBlue"
+
+            android:layout_height="wrap_content"
+          />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue"
+            android:textAlignment="textStart"
+            android:layout_marginTop="15dp"
+            android:text="Select Purpose"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <com.google.android.material.chip.Chip
+            style="@style/CustomChipChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Coffee"
+            app:chipStrokeColor="@color/darkBlue"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Business"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Hobbies"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Frienship"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Movies"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Dinning"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Dating"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.google.android.material.chip.Chip
+                style="@style/CustomChipChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="Matrimony"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </LinearLayout>
+<Button
+    android:layout_marginTop="10dp"
+    android:layout_width="200sp"
+    android:layout_gravity="center"
+    android:text="Save&amp;Explore"
+    android:textStyle="normal"
+    android:textAllCaps="false"
+    android:background="@drawable/button"
+    android:backgroundTint="@color/darkBlue"
+    android:textColor="@color/white"
+    android:layout_height="30dp">
+</Button>
+</LinearLayout>

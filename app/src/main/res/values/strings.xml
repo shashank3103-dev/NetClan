@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NetClan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="personal">Personal</string>
+    <string name="business">Business</string>
+    <string name="merchant">Merchant</string>
+
+    <string name="rishav">I am Rishav patel i am from Delhi and I am interested in intering or joining as a fresher in manual testing. </string>
+    <string name="lucky">Hi community! i am open to new connections</string>
+    <string name="megha">I am Megha singh yadav from Delhi and I am interested in intering or joining as a fresher in manual testing. Please take a look at my Portfolio and resume for further details and let me know if you can consider me as an employee</string>
+    <string-array name="spinner_items">
+        <item>Available | Hey Let Us Connect</item>
+        <item>Away | Stay Discrete And Watch</item>
+        <item>Busy | Do Not Disturb | will Catch up Later</item>
+        <item>SOS | Emergency! Need Assistance! HELP</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+</resources>
